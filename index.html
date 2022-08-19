@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Потьомко</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <nav class="header-nav">
+          <ul class="header-nav__social-list list-style">
+            <p class="header-nav__social-text">Ми в соціальних мережах:</p>
+            <li class="header-nav__social-item">
+              <svg width="22px" height="18px">
+                <use href="./symbol-defs.svg#icon-telegram"></use>
+              </svg>
+            </li>
+            <li class="header-nav__social-item">
+              <svg width="22px" height="18px">
+                <use href="./symbol-defs.svg#icon-inst"></use>
+              </svg>
+            </li>
+            <li class="header-nav__social-item">
+              <svg width="22px" height="18px">
+                <use href="./symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </li>
+          </ul>
+
+          <label class="header-nav__label" for="size"
+            ><svg width="24" height="24" class="header-nav__label-phone">
+              <use href="./symbol-defs.svg#icon-mobile2"></use></svg
+          ></label>
+          <select class="header-nav__select" id="size" name="size">
+            <option value="1" selected>(099) 111 22 33</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <ul class="header-nav__list-contact list-style">
+            <li class="header-nav__contact-item header-nav__curent">головна</li>
+            <li class="header-nav__contact-item">акції</li>
+            <li class="header-nav__contact-item">доставка та оплата</li>
+            <li class="header-nav__contact-item">про нас</li>
+            <li class="header-nav__contact-item">контакти</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="info">
+        <div class="container all-info">
+          <ul class="list-style info__list">
+            <li class="info__item">
+              <label class="info__label" for="sofa"></label>
+              <select class="info__label-text" id="sofa" name="sofa">
+                <option value="1" selected>ДИВАНИ</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </li>
+            <li class="info__item">
+              <label class="info__label" for="bed"></label>
+              <select class="info__label-text" id="bed" name="bed">
+                <option value="1" selected>ЛІЖКА</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </li>
+            <li class="info__item">
+              <label class="info__label" for="chair"></label>
+              <select class="info__label-text" id="chair" name="chair">
+                <option value="1" selected>КРІСЛА</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </li>
+            <li class="info__item">
+              <label class="info__label" for="comode"></label>
+              <select class="info__label-text" id="comode" name="comode">
+                <option value="1" selected>КОМОДИ</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </li>
+            <li class="info__item">
+              <label class="info__label" for="wardrobe"></label>
+              <select class="info__label-text" id="wardrobe" name="wardrobe">
+                <option value="1" selected>ШАФИ</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </li>
+            <li class="info__item">
+              <label class="info__label" for="kitchen"></label>
+              <select class="info__label-text" id="kitchen" name="kitchen">
+                <option value="1" selected>КУХНЯ</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </li>
+          </ul>
+
+          <svg class="info__logo" width="125" height="75">
+            <use href="./symbol-defs.svg#icon-logo"></use>
+          </svg>
+          <a class="info__name-company link" href="">
+            <span class="info__name-company-f">F</span>urniture.test</a
+          >
+          <a class="link info__shoping" href="">
+            <svg width="30" height="30">
+              <use href="./symbol-defs.svg#icon-shopping"></use></svg
+            >Кошик</a
+          >
+          <button class="info__button" type="button">Замовити дзвінок</button>
+        </div>
+      </section>
+      <section class="new">
+        <div class="container">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="new__numbertext"><span class="new__numbertext-now">01</span>/03</div>
+              <img src="./img/Rectangle.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="new__numbertext"><span class="new__numbertext-now">02</span>/03</div>
+              <img src="./img/Rectangle1.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="new__numbertext"><span class="new__numbertext-now">03</span>/03</div>
+              <img src="./img/Rectangle2.jpg" style="width: 100%" />
+            </div>
+          </div>
+
+          <div class="new__card">
+            <h2 class="new__title">Новинка!</h2>
+            <h3 class="new__name">Ліжко Ornella</h3>
+            <p class="new__text">Це новий рівень комфортного сну</p>
+            <button class="new__btn" type="button">Детальніше</button>
+            <!-- <div class="new__numbertext"><span class="new__numbertext-now">01</span>/04</div> -->
+
+            <div class="new__click">
+              <a class="prev" onclick="plusSlides(-1)"
+                ><svg width="30px" height="30px">
+                  <use href="./symbol-defs.svg#icon-Left"></use></svg
+              ></a>
+              <a class="next" onclick="plusSlides(1)"
+                ><svg width="30px" height="30px">
+                  <use href="./symbol-defs.svg#icon-Right"></use></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container">
+          <h2 class="benefits__title">Наші переваги</h2>
+          <ul class="list-style benefits__list">
+            <li class="benefits__item">
+              <img src="./img/benefits/Rectangle1.png" alt="кухня" />
+              <h3 class="benefits__title-item">Меблі преміум класу</h3>
+              <div class="benefits__item-text">
+                <p class="benefits__text">
+                  За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку
+                  Вінницької області та України
+                </p>
+              </div>
+            </li>
+            <li class="benefits__item">
+              <img src="./img/benefits/Rectangle2.png" alt="кухня" />
+              <h3 class="benefits__title-item">Надійність</h3>
+              <div class="benefits__item-text">
+                <p class="benefits__text">
+                  За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку
+                  Вінницької області та України
+                </p>
+              </div>
+            </li>
+            <li class="benefits__item">
+              <img src="./img/benefits/Rectangle3.png" alt="кухня" />
+              <h3 class="benefits__title-item">Безкоштовна доставка</h3>
+              <div class="benefits__item-text">
+                <p class="benefits__text">
+                  За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку
+                  Вінницької області та України
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="category">
+        <div class="container">
+          <h2 class="category__title">Категорії товарів</h2>
+          <ul class="list-style category__list">
+            <li class="category__item">
+              <svg class="" width="100" height="83">
+                <use href="./symbol-defs.svg#icon-Group1"></use>
+              </svg>
+              <p class="category__item-text">Дивани</p>
+            </li>
+            <li class="category__item category__item--curent category__curent">
+              <svg class="" width="80" height="100">
+                <use href="./symbol-defs.svg#icon-Group2"></use>
+              </svg>
+              <p class="category__item-text">Ліжка</p>
+            </li>
+            <li class="category__item">
+              <svg class="" width="100" height="78">
+                <use href="./symbol-defs.svg#icon-Group3"></use>
+              </svg>
+              <p class="category__item-text">Крісла</p>
+            </li>
+            <li class="category__item">
+              <svg class="" width="100" height="86">
+                <use href="./symbol-defs.svg#icon-Group4"></use>
+              </svg>
+              <p class="category__item-text">Комоди</p>
+            </li>
+            <li class="category__item">
+              <svg class="" width="68" height="100">
+                <use href="./symbol-defs.svg#icon-Group5"></use>
+              </svg>
+              <p class="category__item-text">Шафи</p>
+            </li>
+            <li class="category__item">
+              <svg class="" width="100" height="92">
+                <use href="./symbol-defs.svg#icon-Group6"></use>
+              </svg>
+              <p class="category__item-text">Кухня</p>
+            </li>
+          </ul>
+        </div>
+        <div class="category__bed">
+          <ul class="category__bed-list list-style">
+            <li class="category__bed-item">
+              <div class="category__bed-foto">
+                <img src="./img/bed/bed1.jpg" alt="ліжко рамона" />
+                <p class="category__bed-text">Новинка</p>
+              </div>
+              <ul class="category__info list-style">
+                <li class="category__info-item"><p>Ліжко Рамона</p></li>
+                <li class="category__info-item"><p>8 999 грн</p></li>
+              </ul>
+            </li>
+            <li class="category__bed-item">
+              <div class="category__bed-foto">
+                <img src="./img/bed/bed2.jpg" alt="ліжко рамона" />
+                <p class="category__bed-text-bay">ХІт продаж</p>
+                <p class="category__bed-sale">Акція</p>
+              </div>
+              <ul class="category__info list-style">
+                <li class="category__info-item"><p>Ліжко Честер</p></li>
+                <li class="category__info-item-sale">
+                  <p>8 999 грн <span class="category__sale-size">8 999 грн</span></p>
+                </li>
+              </ul>
+            </li>
+            <li class="category__bed-item">
+              <div class="category__bed-foto">
+                <img src="./img/bed/bed3.jpg" alt="Ліжко Венеція люкс" />
+              </div>
+              <ul class="category__info list-style">
+                <li class="category__info-item"><p>Ліжко Венеція люкс</p></li>
+                <li class="category__info-item"><p>8 999 грн</p></li>
+              </ul>
+            </li>
+            <li class="category__bed-item">
+              <div class="category__bed-foto">
+                <img src="./img/bed/bed1.jpg" alt="ліжко рамона" />
+                <p class="category__bed-text">Новинка</p>
+              </div>
+              <ul class="category__info list-style">
+                <li class="category__info-item"><p>Ліжко Імперія</p></li>
+                <li class="category__info-item"><p>8 999 грн</p></li>
+              </ul>
+            </li>
+            <li class="category__bed-item">
+              <div class="category__bed-foto">
+                <img src="./img/bed/bed5.jpg" alt="Ліжко Адель" />
+              </div>
+              <ul class="category__info list-style">
+                <li class="category__info-item"><p>Ліжко Адель</p></li>
+                <li class="category__info-item"><p>8 999 грн</p></li>
+              </ul>
+            </li>
+            <li class="category__bed-item">
+              <div class="category__bed-foto">
+                <img src="./img/bed/bed6.jpg" alt="Ліжко Атлант" />
+                <p class="category__bed-text-bay">ХІт продаж</p>
+                <p class="category__bed-sale">Акція</p>
+              </div>
+              <ul class="category__info list-style">
+                <li class="category__info-item"><p>Ліжко Атлант</p></li>
+                <li class="category__info-item-sale">
+                  <p>8 999 грн <span class="category__sale-size">8 999 грн</span></p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button class="category__btn" type="button">В каталог</button>
+        </div>
+      </section>
+      <section class="history">
+        <div class="container">
+          <h2 class="history__title">Про нас</h2>
+          <div class="history__box">
+            <p class="history__text">
+              <span class="history__text-title">"Furniture"</span> – "Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum." <br /><br />
+
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum."<br /><br />
+
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            </p>
+            <img class="history__foto" src="./img/history/foto.jpg" alt="працівники компанії" />
+          </div>
+        </div>
+      </section>
+      <section class="question">
+        <div class="container">
+          <h2 class="question__title">Залишились питання?</h2>
+          <div class="question__box">
+            <img src="./img/question/foto.jpg" alt="фото кімнати" />
+            <div class="question__form">
+              <form class="question__form-box">
+                <strong class="question__form-title">Замовте консультацію</strong>
+                <ul class="question__form-list list-style">
+                  <li>
+                    <label class="question__form-label">
+                      <input
+                        type="text"
+                        class="question__form-input"
+                        name="username"
+                        placeholder="Ім'я"
+                        minlength="3"
+                        required
+                      />
+                    </label>
+                  </li>
+                  <li>
+                    <label class="question__form-label">
+                      <input
+                        type="tel"
+                        class="question__form-input"
+                        name="tel"
+                        placeholder="Номер телефону"
+                        required
+                      />
+                    </label>
+                  </li>
+                  <li><button class="question__form-btn" type="submit">ВІдправити</button></li>
+                </ul>
+                <p class="question__form-text">
+                  Залиште заявку або телефонуйте за номером
+                  <span class="question__form-tel">(099) 111 22 33</span>, і наш менеджер звяжеться
+                  з вами для кваліфікованої консультації.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="all-footer">
+        <div class="footer">
+          <svg onclick="topFunction()" width="50" height="50" class="footer__svg">
+            <use href="./symbol-defs.svg#icon-up"></use>
+          </svg>
+          <div class="footer__logo">
+            <svg width="125" height="75">
+              <use href="./symbol-defs.svg#icon-logo-footer"></use>
+            </svg>
+            <a class="footer__name-company link" href="">
+              <span class="info__name-company-f">F</span>urniture.test
+            </a>
+          </div>
+          <div class="footer__info">
+            <div class="footer__description">
+              <ul class="list-style">
+                <li class="footer__info-item">Дивани</li>
+                <li class="footer__info-item">ліжка</li>
+                <li class="footer__info-item">Крісла</li>
+                <li class="footer__info-item">шафи</li>
+                <li class="footer__info-item">Кухні</li>
+                <li class="footer__info-item">комоди</li>
+              </ul>
+              <ul class="list-style">
+                <li class="footer__info-item">АкцІї</li>
+                <li class="footer__info-item">Доставка та оплата</li>
+                <li class="footer__info-item">про нас</li>
+                <li class="footer__info-item">контакти</li>
+              </ul>
+            </div>
+            <div class="footer__contact">
+              <ul class="list-style">
+                <li class="footer__svg-list">
+                  <svg width="20" height="24">
+                    <use href="./symbol-defs.svg#icon-google"></use>
+                  </svg>
+                  <p class="footer__svg-text">TEST</p>
+                </li>
+                <li class="footer__svg-list">
+                  <svg width="20" height="22">
+                    <use href="./symbol-defs.svg#icon-calendar"></use>
+                  </svg>
+                  <p class="footer__svg-text">Пн-Пт, з 10 до 18</p>
+                </li>
+                <li class="footer__svg-list">
+                  <svg class="footer__svg-style" width="20" height="22">
+                    <use href="./symbol-defs.svg#icon-mobile2"></use>
+                  </svg>
+                  <p class="footer__svg-text footer__svg-text-style">
+                    (099) 111 22 33
+                    <br />(099) 222 33 44
+                  </p>
+                </li>
+              </ul>
+              <div class="footer__social-link">
+                <p class="footer__svg-text">Ми в соціальних мережах:</p>
+                <ul class="list-style footer__icon-list">
+                  <li>
+                    <svg class="footer__icon-sl" width="21" height="18">
+                      <use href="./symbol-defs.svg#icon-telegram"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="footer__icon-sl" width="10" height="21">
+                      <use href="./symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="footer__icon-sl" width="21" height="21">
+                      <use href="./symbol-defs.svg#icon-inst"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="footer__work-text">© ТОВ Furniture, працюємо з 2006 року</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="./img/footer/foto.jpg" alt="фото" />
+        </div>
+      </div>
+    </footer>
+    <script src="./js/slider.js"></script>
+    <script src="./js/up.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+.info {
+  &__list {
+    display: flex;
+  }
+
+  &__label-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    border: none;
+    color: #1e2e36;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 19px;
+  }
+
+  &__logo {
+    margin-left: 119px;
+    margin-top: 15px;
+  }
+
+  &__name-company {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 125%;
+    color: #1e2e36;
+    margin-left: 15px;
+  }
+  &__name-company-f {
+    color: #44c697;
+  }
+
+  &__shoping {
+    gap: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    text-transform: uppercase;
+    color: #1e2e36;
+    margin-left: 319px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  &__button {
+    width: 278px;
+    height: 51px;
+    background-color: #44c697;
+    color: #ffffff;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    cursor: pointer;
+  }
+}
+
+.all-info {
+  display: flex;
+
+  align-items: center;
+}

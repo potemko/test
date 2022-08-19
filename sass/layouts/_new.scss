@@ -1,0 +1,158 @@
+.new {
+  padding-top: 15px;
+  position: relative;
+  margin-bottom: 100px;
+  &__card {
+    width: 462px;
+    height: 670px;
+    border-left: 15px solid #44c697;
+    background-color: #ffffff;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    color: #1e2e36;
+    padding-top: 99px;
+    text-align: center;
+  }
+  &__name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+    color: #1e2e36;
+    margin-top: 50px;
+    text-align: center;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.25;
+    text-align: center;
+    color: #1e2e36;
+    margin-top: 10px;
+  }
+  &__btn {
+    width: 209px;
+    height: 51px;
+    background-color: #44c697;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+    margin-left: 127px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  &__numbertext {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1e2e36;
+    text-align: center;
+    margin-bottom: 9px;
+    position: absolute;
+    bottom: 256px;
+    left: 280px;
+    z-index: 2;
+  }
+  &__numbertext-now {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1e2e36;
+    text-align: center;
+  }
+  &__click {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 250ms;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
